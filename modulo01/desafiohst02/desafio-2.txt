@@ -1,0 +1,13 @@
+https://www.hashtagtreinamentos.com/
+
+Nosso Desafio 2 vai ser construir a Home do site da Hashtag Treinamentos.
+
+Vamos completar esse desafio no final do módulo 6, que é quando vamos ter visto a parte mais avançada de HTML e CSS.
+
+O objetivo para o Desafio 2 nesse módulo (Introdução ao HTML) é montar o esqueleto básico da Home da Hashtag Treinamentos. Conforme a gente for evoluindo nos módulos, vamos complementando esse desafio com as novidades que a gente aprendeu.
+
+Logo, o gabarito do Desafio 2 para esse módulo é recriar toda a Home da Hashtag apenas com o que aprendemos até agora (voltar nas aulas ou consultar o arquivo elementos.txt).
+
+Para as estruturas que a gente ainda não viu, pode simplesmente colocar um <p>VÍDEO</p> para retratar aquele elemento que nos próximos módulos a gente vai substituindo pelas estruturas reais.
+
+Divirta-se!
