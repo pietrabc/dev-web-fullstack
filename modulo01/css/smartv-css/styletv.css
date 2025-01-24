@@ -1,0 +1,49 @@
+body {
+    font-family: 'Montserrat', sans-serif;
+}
+
+h1 {
+    font-size: 45px;
+    line-height: 1;
+}
+
+h2 {
+    font-size: 32px;
+    line-height: 1.1;
+}
+
+h3 {
+    font-size: 24px;
+    line-height: 1.2;
+}
+
+p {
+    font-size: 18px;
+    line-height: 1.4;
+}
+
+figcaption {
+    font-size: 12px;
+    font-style: italic;
+}
+
+a {
+    font-size: 24px;
+    font-weight: 700;
+    text-decoration: double;
+    text-decoration-line: underline;
+    color: #c44105;
+}
+
+ul {
+    color: #035276;
+    font-style: italic;
+}
+
+.texto01 {
+    color: #0588c4;
+}
+
+#frete {
+    text-decoration-line: underline;
+}

@@ -1,0 +1,23 @@
+Vamos formatar a página que criamos no desafio 1 do módulo de Introdução ao HTML.
+
+A fonte de todos os textos da página deverá ser Montserrat e, caso o navegador não consiga carregar, deverá usar uma fonte sans-serif.
+
+Vamos alterar o tamanho dos textos da página de acordo com a tabela:
+
+Elemento - Tamanho - Altura da Linha
+h1 - 45px - 1
+h2 - 32px - 1.1
+h3 - 24px - 1.2
+p - 18px - 1.4
+
+A legenda da imagem deverá ter 12px de tamanho e deverá estar em itálico.
+
+O link de compra deverá estar na cor #c44105 com 24px de tamanho, negrito e com um sublinhado duplo.
+
+Os itens de lista deverão estar na cor #035276 e em itálico.
+
+Vamos realçar o texto '75"' que está dentro do H1 com a cor #0588c4.
+
+Os dois realces que fizemos na seção de Preço deverão ter a cor #0588c4. (Existem várias formas certas de fazer isso). Você pode trocar os códigos em HTML, só lembre de não perder a parte semântica do que tínhamos construído. 
+
+Os dois realces da seção de Condições deverão estar na cor #0588c4 e o realce do frete grátis deverá adicionar um sublinhado também. Lembre de não perder a parte semântica do HTML aqui também.
