@@ -7,7 +7,10 @@ h1 {
     color: orange;
 }
 
- 
+ p span {
+    font-size: 32px;
+    color: blue;
+ }
 
 .paragrafo {
     font-size: 20px;
@@ -17,4 +20,10 @@ h1 {
     font-size: 28px
     ;
     color: red;
+}
+
+span.texto {
+    font-size: 30px;
+    color: purple;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
 }
