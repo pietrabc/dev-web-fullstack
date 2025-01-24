@@ -29,7 +29,7 @@ p {
 .realce {
  font-style: italic;  
  font-weight: bold; 
- color: blueviolet;
+ color: rgb(82, 18, 141);
 }
 
 .caixa-alta {
@@ -37,4 +37,15 @@ p {
     font-weight: 700;
     font-style: italic;
     color: brown;
+}
+
+a {
+    font-style: italic;
+    text-decoration: dotted;
+    text-decoration-line: underline;
+    text-decoration-color: violet;
+    color: rgb(9, 104, 9);
+    font-weight: 700;
+
+
 }
