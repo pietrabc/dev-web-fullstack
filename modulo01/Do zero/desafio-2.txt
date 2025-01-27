@@ -1,0 +1,9 @@
+https://www.hashtagtreinamentos.com/
+
+O objetivo para o Desafio 2 nesse módulo (Introdução ao CSS) é estilizar o esqueleto básico da Home da Hashtag Treinamentos que criamos ao final do módulo de Introdução ao HTML.
+
+Como ainda não vimos tudo o que precisamos para concluir o desafio, vamos formatar apenas as coisas que já aprendemos.
+
+Vamos precisar consultar MUITO o site da Hashtag. Essa vai ser uma ótima hora para se familiarizar com as Ferramentas do Programador. Vamos utilizá-las o tempo todo para entender o que está acontecendo no site que vamos reproduzir.
+
+Divirta-se!
