@@ -130,3 +130,18 @@ strong {
 .blog-descricaopost {
    font-size: 17px;
 }
+
+/* Seção Como ajudar */
+
+.comoajudar-lista , .comoajudar-paragrafo {
+   font-size: 19px;
+}
+
+.comoajudar-lista a, .comoajudar-paragrafo a {
+   color: #008ff7 ;
+   font-weight: 600;
+}
+
+.comoajudar-paragrafo b {
+   font-weight: 600;
+}
