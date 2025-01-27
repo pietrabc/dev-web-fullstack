@@ -1,8 +1,33 @@
+h1, h2, h3, h4, a, p, li {
+   font-family: 'Montserrat', sans-serif;
+   color: #404040;
+}
+
+/* Cabeçalho */
+
 .item-lista-cabecalho {
    color: #112e61;
    font-family: 'Montserrat', sans-serif;
    font-size: 14px;
    font-weight: 600;
    text-transform: uppercase;
+   text-decoration: none;
+   
+}
+
+/* Seção Hero */
+
+h1 {
+   font-size: 35px;
+   font-weight: 600;  
+}
+
+.hero-paragrafo {
+   font-size: 19px;
+}
+
+.hero-botao {
+   font-size: 24px;
+   font-weight: 700;
    text-decoration: none;
 }
