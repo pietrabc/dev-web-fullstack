@@ -1,3 +1,8 @@
-.lista-cabecalho {
-   color: #112E61; 
+.item-lista-cabecalho {
+   color: #112e61;
+   font-family: 'Montserrat', sans-serif;
+   font-size: 14px;
+   font-weight: 600;
+   text-transform: uppercase;
+   text-decoration: none;
 }
