@@ -107,3 +107,26 @@ strong {
 
 /* Seção O que falam */
 
+/* Seção Na mídia */
+
+/* Seção Blog da Hashtag */
+
+.blog-postadoem  {
+   font-size: 15px;
+}
+
+.blog-postadoem a {
+   font-weight: 600;
+   color: #f7a70c;
+   text-decoration: none;
+}
+
+.blog-titulopost {
+   font-size: 24px;
+   font-weight: 600;
+   text-decoration: none;
+}
+
+.blog-descricaopost {
+   font-size: 17px;
+}
