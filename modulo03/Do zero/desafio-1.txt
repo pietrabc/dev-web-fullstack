@@ -1,0 +1,29 @@
+No desafio 1 do módulo Aprofundando no HTML, nós praticar tudo o que vimos no módulo atual e juntar com alguns dos conhecimentos que já tínhamos adquirido.
+
+A ideia é partir do arquivo desafio-1.html da pasta "Do zero" e transformá-lo em um arquivo HTML com uma semântica adequada.
+
+De início, vamos precisar dividir a nossa página de acordo com a estrutura que aprendemos até aqui. Logo, teremos que introduzir as três grandes seções de uma página, além das seções menores. Volte na aula de estrutura para relembrar como é a divisão ideal de uma página.
+
+A logo da MDN deverá ter 150px de largura, mas como será a única estilização que vamos fazer na página, não é necessário criar um arquivo css para isso. Você pode resolver isso pelo inline mesmo.
+
+No primeiro parágrafo que mencionarmos "HTML" ou "CSS", você deverá criar uma abreviação com o nome completo da linguagem.
+
+Coloque o ano de criação do HTML dentro de uma tag que os computadores consigam entender.
+
+A primeira citação deverá conter uma citação junto com um link para a fonte do texto (https://developer.mozilla.org/pt-BR/docs/Learn/HTML/Introduction_to_HTML/HTML_text_fundamentals)
+
+Todas as tags em HTML exibidas na página final deverão ser retratadas da forma correta, isto é, como um código.
+
+Na segunda citação da página, você deverá usar uma citação inline.
+
+O código em CSS dentro da página deverá ser retratado exatamente do jeito que ele seria visualizado dentro de um arquivo CSS. Lembre das duas tags que você vai precisar usar para fazer isso.
+
+Logo no parágrafo seguinte, fazemos uma referência ao código em CSS. Retrate o seletor como se fosse uma variável.
+
+Transforme o modelo de tabela em uma tabela HTML.
+
+Lembre de como criamos contextos de navegação para referenciar o site da Wikipedia.
+
+Substitua os parágrafos utilizados para retratar o formulário pelo formulário em si.
+
+Finalize a página usando a forma adequada de retratar informações de contato.
