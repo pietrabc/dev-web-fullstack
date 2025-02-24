@@ -1,0 +1,20 @@
+https://www.hashtagtreinamentos.com/
+
+O objetivo para o Desafio 2 nesse módulo (Aprofundando no HTML) é utilizar as tags e componentes avançados que aprendemos ao longo do módulo na página que construímos até o momento.
+
+Lembre-se dos focos do módulo:
+
+Citações, Abreviações e Detalhes de Contato
+  blockquote, q, cite e address
+Códigos e Datas
+  code, pre, var, kbd, samp e time
+Estrutura dos Documentos
+  header, nav, main, article, aside, section e footer
+  div e span
+Formulários
+Tabelas
+iFrames
+
+Vamos tentar incorporar tudo que aprendemos na Home da Hashtag, respeitando o que foi usado na página real.
+
+Divirta-se!
