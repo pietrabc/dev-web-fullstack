@@ -741,7 +741,6 @@
     </section>
       
       <!-- Seção Minicurso -->
-
       <section>
 
       <h2>
@@ -749,11 +748,29 @@
         <span class="realce-semibold">minicurso de graça</span>!
       </h2>
       
-      <p>Nome</p>
-      <p>CAMPO DE NOME</p>
-      
-      <p>E-mail</p>
-      <p>CAMPO DE E-MAIL</p>
+      <form action="">
+        <div>
+          <label for="name">Nome</label>
+          <input
+          type="text"
+          id="name"
+          name="name"
+          placeholder="*Seu primeiro nome" required>
+        </div>
+
+        <div>
+          <label for="email">E-mail</label>
+          <input
+          type="email"
+          id="email"
+          name="email"
+          placeholder="*Seu e-mail principal" required>
+        </div>
+
+        <button type="submit">Enviar</button>
+      </form>
+
+       
       
       <p>BOTÃO DO FORMULÁRIO</p>
 
