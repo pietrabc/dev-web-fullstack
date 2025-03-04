@@ -6,6 +6,29 @@
     <title>Sombras</title>
 </head>
 <body>
-    
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+        }
+
+        html {
+            font-size: 62.5%;
+        }
+
+        div {
+            margin: 10rem;
+            width: 20rem;
+            height: 20rem;
+            background-color: green;
+            /* inset: inserindo a sombra(opcional) ,deslocamento horzontal, deslocamento vertical, blur radius ( raio de desfoque),raio de propagação(opcional), cor */
+            box-shadow: inset 1rem 2rem 1rem rgba(0, 0, 0, 0.2);
+
+            /* Adicionando mais sombras */
+            box-shadow: inset 1rem 2rem 1rem rgba(0, 0, 0, 0.2),5rem 5rem 0rem 5rem rgba(104, 2, 2, 0.2)
+        }
+    </style>
+
+    <div></div>
 </body>
 </html>
