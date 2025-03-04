@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pseudo-Elementos</title>
+</head>
+<body>
+    <style>
+        p::after {
+            content: "Fim do texto.";
+        }
+
+        p::before {
+            content: 'Texto do início.';
+        }
+        p::first-letter {
+            font-size: 60px;
+            font-weight: 700;
+            
+        }
+
+        p::first-line {
+            color: red;
+        }
+    </style>
+    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Deserunt adipisci minus assumenda numquam a eos aliquam vero, nesciunt incidunt, molestias saepe quas corporis ab ex, esse dolorem id? Amet, eum. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Iusto assumenda, cumque fuga a, quaerat ducimus optio quae vero cum tempora quis possimus! Rem ratione blanditiis officia hic temporibus odit neque.</p>
+</body>
+</html>
