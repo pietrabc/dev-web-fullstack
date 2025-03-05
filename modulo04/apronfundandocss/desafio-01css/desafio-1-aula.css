@@ -1,6 +1,7 @@
 * {
   margin: 0;
   padding: 0;
+  box-sizing: border-box;
 }
 
 html {
@@ -22,23 +23,26 @@ li,
 figcaption {
   font-family: "Montserrat", sans-serif;
   margin-left: 3.2rem;
+  font-size: 1.2rem;
+  font-style: italic;
 }
 
-h1, figure {
-  margin: 3.2rem;
+ figure {
+  margin-bottom: 3.2rem;
 }
 
-h2, a, ul {
-  margin: 2.4rem;
+h2, a {
+  margin-bottom: 2.4rem;
 }
 
 p, li {
-  margin: 0.6rem;
+  margin-bottom: 0.6rem;
 }
 
 h1 {
   font-size: 4.5rem;
   line-height: 1;
+  margin-bottom: 3.2rem;
 }
 
 h2 {
@@ -49,20 +53,11 @@ h2 {
 h3 {
   font-size: 2.4rem;
   line-height: 1.2;
-  margin: 1.8rem;
+  margin-bottom: 1.8rem;
 }
 
-p {
-  font-size: 1.8rem;
-  line-height: 1.4;
-}
-
-figcaption {
-  font-size: 1.2rem;
-  font-style: italic;
-}
-
-a {
+a:link , a:visited {
+  display: inline-block;
   color: #c44105;
   font-size: 2.4rem;
   font-weight: 700;
@@ -70,7 +65,7 @@ a {
   text-decoration-line: underline;
 }
 
-a:hover {
+a:hover , a:active {
   color: #0588c4;
 }
 
@@ -80,6 +75,7 @@ li {
 }
 
 ul {
+  margin-bottom: 2.4rem;
   margin-left: 2.4rem;
 }
 
@@ -115,16 +111,17 @@ p strong {
   text-decoration: underline;
 }
 
-.caracteristicas {
+section {
   padding: 2.4rem;
 }
 
 .condicoes {
+  display: inline-block;
   background-color: #035276;
   color: #fff;
   padding:  2.4rem 3.2rem;
-  border-radius: 2.rem;
-  box-shadow: 0px 0px 16px 4px rgba(0, 0, 0, 0.171);
+  border-radius: 20px;
+  box-shadow: 0px 0px 16px 4px rgba(0, 0, 0, 0.15);
 }
 
 .zap {
