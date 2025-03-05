@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tipos de Visualização</title>
+</head>
+<body>
+    <style>
+         * {
+            margin: 0;
+            padding: 0;
+        }
+
+        html {
+            font-size: 62.5%;
+        }
+
+        /* Block */
+        /* Ocupa todo o espaço horizontal, quebra linhas, box model se aplica, a parte de padding e margin funcionam normalmente. */
+
+        h1 {
+            display: block;
+            font-size: 3.2rem;
+            height: 5rem;
+            margin: 1rem;
+            padding: 1rem;
+        }
+
+        h2 {
+            font-size: 2.4rem;
+        }
+
+        p {
+            font-size: 1.6rem;
+        }
+
+        /* Inline 
+        Ocupa apenas o espaço do conteúdo, não quebra linhas
+        fica lado a lado, box model nao se aplica
+        padding e margin só funcionam na horizontal*/
+
+        a {
+            display: inline;
+            font-size: 1.6rem;
+        }
+
+        span {
+            font-style: italic;
+            color: red;
+        }
+
+        /* Inline-Block
+         Ocupa apenas o espaço do conteúdo, não quebra linhas
+         box model se aplica, a parte de padding e margin funcionam normalmente.*/
+
+    </style>
+
+    <div>
+        <h1> Meu título</h1>
+        <h2>Meu subtítulo</h2>
+        <a href="#">Acesse meu site!</a>
+        <p>Lorem ipsum, dolor sit amet <b>consectetur adipisicing elit.</b> Velit exercitationem ad ea vitae harum incidunt, unde excepturi error tempore. <span>Inventore illum consectetur quas iure quam.</span> Repellendus optio similique sunt quod. Lorem ipsum dolor sit amet consectetur adipisicing elit. Molestias perspiciatis adipisci maxime porro eius, atque distinctio mollitia eaque, tempore quae dolores odit eveniet voluptates, iste inventore similique cumque vero a. Lorem ipsum dolor sit amet consectetur adipisicing elit. Esse cumque numquam voluptatibus aut possimus, rem laudantium nisi officiis? In assumenda dolorem nesciunt, architecto mollitia consectetur deserunt vero modi alias commodi?</p>
+    </div>
+</body>
+</html>
