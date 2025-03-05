@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tipos de Posicionamento</title>
+</head>
+<body>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+        }
+
+        html {
+            font-size: 62.5%;
+        }
+
+        /* position: static, relative, absolute, fixed */
+
+        h1 {
+            font-size: 3.2rem;
+        }
+
+        h2 {
+            font-size: 2.4rem;
+        }
+
+        p, a {
+            font-size: 1.6rem;
+            color: inherit;
+        }
+
+        a {
+            /* Lembrar de colocar com posicionamento relativo o elemento para qual você está buscando o posicionamento absoluto 
+            O elemento em questão está sendo posicionado absolutamente em relação a quem? A resposta deverá está em posicionamento relativo*/
+            position: absolute;
+            bottom: 0;
+            right: 0;
+        }
+
+        div {
+            /* position: relative;
+            top: 20rem; */
+
+            position: relative;
+            height: 20rem;
+            width: 20rem;
+            background-color: green;
+            color: white;
+        }
+    </style>
+
+    <div>
+        <a href="#">Acesse meu site!</a>      
+    </div>
+</body>
+</html>
