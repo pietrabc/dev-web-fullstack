@@ -1,0 +1,38 @@
+Vamos modificar um pouco mais a página que criamos no desafio 1 do módulo de Introdução ao CSS.
+
+Vamos usar todos os conceitos vistos nesse módulo. Vai ser ótimo para testar os conhecimentos que você adquiriu!
+
+Vale mencionar que, mesmo sendo um módulo de CSS, vamos alterar o HTML do arquivo também.
+
+Na parte de HTML, divida o arquivo nas seções que aprendemos na parte de estrutura dos documentos. Vai uma dica: teremos uma grande seção na página e três seções menores. Se você julgar necessário, pode adicionar classes nos elementos.
+
+Nosso arquivo em CSS deverá iniciar com o seletor universal zerando o espaçamento interno, o espaçamento externo e ajustando o Box Model. Depois disso, use o conceito de herança de estilos para definir a fonte como Montserrat, o tamanho da fonte em 18px e a altura da linha em 1.4.
+
+Vamos alterar o font size da raiz do site (root) para 10px ou o equivalente em %. Depois dessa alteração, vamos mudar TODAS as unidades do documento para rem.
+
+Use um espaçamento interno de 24px nas três seções menores do site.
+
+Adicione um espaçamento externo inferior seguindo a tabela abaixo:
+
+h1, figure  - 32px
+h2, a, ul - 24px
+h3 - 18px
+p, li - 6px
+
+OBS: se atente para o espaçamento externo inferior da âncora. Tente resolver o problema.
+
+A legenda da figura da página deverá ter um espaçamento externo da esquerda de 32px. A lista não ordenada deverá ter um espaçamento externo da esquerda de 24px.
+
+Os hrs da página não deverão aparecer na tela do navegador. Faça isso apenas com CSS.
+
+A primeira letra do título h1 deverá ter 64px de tamanho da fonte. Faça isso usando apenas o CSS.
+
+Lembre de usar aquela sigla de Pseudo Classes no único link da página. Quando alguém passar o mouse por cima do link, ele deverá ficar na cor #0588c4;
+
+Agrupe os itens da seção de condições em um bloco. O bloco deverá ocupar apenas o tamanho do seu conteúdo. Esse bloco deverá ter #035276 como cor de fundo e #fff como cor da fonte. A sombra deverá ser preta com 15% de transparência, raio de desfoque de 16px e raio de propagação de 4px, sem nenhum deslocamento vertical ou horizontal. O espaçamento interno vertical deverá ser de 24px e o horizontal de 32px. O arredondamento da borda deverá ser de 20px.
+
+Tanto o realce itálico quanto o realce de underline, se estiverem dentro do bloco de condições, deverão estar na cor #78d4ff.
+
+Divirta-se!
+
+Bônus: vamos copiar o botão de WhatsApp que fica no canto inferior direito do site da Hashtag (www.hashtagtreinamentos.com). Primeiro passo é acessar o site e copiar o link da imagem. Segundo passo é adicionar essa imagem (junto com um link que leve para o site do WhatsApp Web - https://web.whatsapp.com) em nosso HTML. O último passo é formatar essa imagem mexendo no posicionamento dela para que ela fique fixada na tela no canto superior direito afastada de 10px da lateral direita e da parte superior. O tamanho da imagem deve ser de 85px.

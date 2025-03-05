@@ -1,0 +1,133 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+html {
+  font-size: 62.5%;
+}
+
+body {
+  font-family: "Montserrat", sans-serif;
+  font-size: 1.8rem;
+  line-height: 1.4;
+}
+
+h1,
+h2,
+h3,
+p,
+a,
+li,
+figcaption {
+  font-family: "Montserrat", sans-serif;
+  margin-left: 3.2rem;
+}
+
+h1, figure {
+  margin: 3.2rem;
+}
+
+h2, a, ul {
+  margin: 2.4rem;
+}
+
+p, li {
+  margin: 0.6rem;
+}
+
+h1 {
+  font-size: 4.5rem;
+  line-height: 1;
+}
+
+h2 {
+  font-size: 3.2rem;
+  line-height: 1.1;
+}
+
+h3 {
+  font-size: 2.4rem;
+  line-height: 1.2;
+  margin: 1.8rem;
+}
+
+p {
+  font-size: 1.8rem;
+  line-height: 1.4;
+}
+
+figcaption {
+  font-size: 1.2rem;
+  font-style: italic;
+}
+
+a {
+  color: #c44105;
+  font-size: 2.4rem;
+  font-weight: 700;
+  text-decoration: double;
+  text-decoration-line: underline;
+}
+
+a:hover {
+  color: #0588c4;
+}
+
+li {
+  color: #035276;
+  font-style: italic;
+}
+
+ul {
+  margin-left: 2.4rem;
+}
+
+hr {
+  display: none;
+}
+
+h1::first-letter {
+  font-size: 6.4rem;
+}
+
+/* h1 span {
+  color: #0588c4;
+} */
+
+.realce-h1 {
+  color: #0588c4;
+}
+
+.realce-p,
+p strong {
+  color: #0588c4;
+  font-weight: 700;
+}
+
+.realce-italico {
+  color: #78d4ff;
+  font-style: italic;
+}
+
+.realce-underline {
+  color: #78d4ff;
+  text-decoration: underline;
+}
+
+.caracteristicas {
+  padding: 2.4rem;
+}
+
+.condicoes {
+  background-color: #035276;
+  color: #fff;
+  padding:  2.4rem 3.2rem;
+  border-radius: 2.rem;
+  box-shadow: 0px 0px 16px 4px rgba(0, 0, 0, 0.171);
+}
+
+.zap {
+  position: fixed;
+  
+}
