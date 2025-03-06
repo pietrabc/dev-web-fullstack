@@ -14,30 +14,18 @@ body {
   line-height: 1.4;
 }
 
-
-figcaption {
-  
-  margin-left: 3.2rem;
-  font-size: 1.2rem;
-  font-style: italic;
-}
-
- figure {
-  margin-bottom: 3.2rem;
-}
-
- a {
-  margin-bottom: 2.4rem;
-}
-
-p, li {
-  margin-bottom: 0.6rem;
+section {
+  padding: 2.4rem;
 }
 
 h1 {
   font-size: 4.5rem;
   line-height: 1;
   margin-bottom: 3.2rem;
+}
+
+h1::first-letter {
+  font-size: 6.4rem;
 }
 
 h2 {
@@ -52,8 +40,28 @@ h3 {
   margin-bottom: 1.8rem;
 }
 
-a:link , a:visited {
+figcaption {
+  font-size: 1.2rem;
+  font-style: italic;
+  margin-left: 1.6rem;
+}
+
+figure {
+  margin-bottom: 3.2rem;
+}
+
+p,
+li {
+  margin-bottom: 0.6rem;
+}
+
+a {
+  margin-bottom: 2.4rem;
   display: inline-block;
+}
+
+a:link,
+a:visited {
   color: #c44105;
   font-size: 2.4rem;
   font-weight: 700;
@@ -61,31 +69,20 @@ a:link , a:visited {
   text-decoration-line: underline;
 }
 
-a:hover , a:active {
+a:hover,
+a:active {
   color: #0588c4;
+}
+
+ul {
+  margin-left: 2.4rem;
+  margin-bottom: 2.4rem;
 }
 
 li {
   color: #035276;
   font-style: italic;
 }
-
-ul {
-  margin-bottom: 2.4rem;
-  margin-left: 2.4rem;
-}
-
-hr {
-  display: none;
-}
-
-h1::first-letter {
-  font-size: 6.4rem;
-}
-
-/* h1 span {
-  color: #0588c4;
-} */
 
 .realce-h1 {
   color: #0588c4;
@@ -98,30 +95,25 @@ p strong {
 }
 
 .realce-italico {
-  color: #78d4ff;
+  color: #0588c4;
   font-style: italic;
 }
 
 .realce-underline {
-  color: #78d4ff;
+  color: #0588c4;
   text-decoration: underline;
 }
 
-section {
-  padding: 2.4rem;
-}
-
-.condicoes {
+.div-condicoes {
   display: inline-block;
-  background-color: #035276;
-  color: #fff;
-  padding:  2.4rem 3.2rem;
   border-radius: 2rem;
-  box-shadow: 0 0 1.6rem 0.4rem rgba(0, 0, 0, 0.26);
-  
+  padding: 2.4rem 3.2rem;
+  background-color: #035276;
+  color: white;
+  box-shadow: 0 0 1.6rem 0.4rem rgba(0, 0, 0, 0.15);
 }
 
-.zap {
-  position: fixed;
-  
+.div-condicoes .realce-underline,
+.div-condicoes .realce-italico {
+  color: #78d4ff;
 }
