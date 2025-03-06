@@ -1,0 +1,22 @@
+https://www.hashtagtreinamentos.com/
+
+O objetivo para o Desafio 2 nesse módulo (Aprofundando no CSS) é acrescentar os conceitos aprendidos nesse módulo no que construímos até agora no desafio.
+
+Lembre-se dos focos do módulo:
+
+Especificidade no CSS
+Espaçamentos
+Dimensões e Unidades
+Pseudo-Classes
+Pseudo-Elementos
+Seletor universal e Herança de Estilos
+Box Model
+Sombras
+Elementos Arredondados
+Tipos de Visualização
+Tipos de Posicionamento
+Background (Color, Image, Position, Size...)
+
+Vamos tentar incorporar tudo que aprendemos na Home da Hashtag, respeitando o que foi usado na página real.
+
+Divirta-se!
