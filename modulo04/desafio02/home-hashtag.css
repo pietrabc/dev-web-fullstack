@@ -32,6 +32,15 @@ strong {
   font-weight: 600;
 }
 
+.secao {
+  padding: 95.4rem;
+}
+
+.container {
+  max-width: 100rem;
+  margin: 0 auto;
+}
+
 /* a:link ,
 'a:visited {
 
