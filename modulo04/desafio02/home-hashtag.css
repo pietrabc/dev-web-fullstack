@@ -43,9 +43,7 @@ strong {
 
 /* a:link ,
 'a:visited {
-
 } */
-
 
 
 .botao {
@@ -106,6 +104,13 @@ nav ul {
   font-weight: 400;
   font-size: 3.5rem;
 } */
+
+.secao-conteudos {
+  background-image: url('https://elegant-rabanadas-4b0397.netlify.app/Imagens/Formato%20Novo/BACKGROUN-banner-02.webp');
+  background-position: 50%;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
 
 .gratuito-realce {
   color: #7a40be;
