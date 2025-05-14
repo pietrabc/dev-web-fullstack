@@ -1,3 +1,11 @@
+/* Sistema de tamanhos
+Fontes - Minor Third - 1200 - Em Px
+4.4 - 5.4 - 6.4 - 7.7 - 9.2 - 11.1 - 13.3 - 16 - 19.2 - 23 - 27.6 - 33.2 - 39.8 - 47.8 - 57.3 - 68.8 - 82.6
+
+Espaçamentos - Major Third - 1250 - Em Px
+3.3 - 4.2 - 5.2 - 6.5 - 8.2 - 10.2 - 12.8 - 16 - 20 - 25 - 31.2 - 39 - 48.8 - 61 - 76.3 - 95.4 - 119.2
+*/
+
 /* Global */
 * {
   padding: 0;
@@ -33,7 +41,7 @@ strong {
 }
 
 .secao {
-  padding: 95.4rem;
+  padding: 7.63rem 2rem;
 }
 
 .container {
@@ -50,6 +58,8 @@ strong {
   font-size: 2.4rem;
   font-weight: 700;
   text-decoration: none;
+  border-radius: 3rem;
+  padding: 0.82rem 2.5rem;
 }
 
 .realce-semibold {
@@ -63,10 +73,11 @@ strong {
   top: 0;
   left: 0;
   background-color: white;
-  padding: 1.6rem 3.2rem;
-  box-shadow: 0 0.21rem 0.6rem rgba(0, 0, 0, 0.233);
+  padding: 1.6rem 3.12rem;
+  box-shadow: 0 0.21rem 0.4rem rgba(0, 0, 0, 0.233);
 }
 
+/* Temporário */
 nav {
   display: none;
 }
@@ -93,6 +104,13 @@ nav ul {
 }
 
 /* Seção Hero */
+
+.secao-hero {
+  background-image: url('https://elegant-rabanadas-4b0397.netlify.app/Imagens/Formato%20Novo/BACKGROUN-banner-01.webp');
+  background-position: 50%;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
 
 .hero-paragrafo {
   font-size: 1.9rem;
