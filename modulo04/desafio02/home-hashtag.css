@@ -27,8 +27,9 @@ body {
 
 
 h1 {
-  font-size: 3.5rem;
+  font-size: 3.32rem;
   font-weight: 600;
+  line-height: 1;
 }
 
 h2 {
@@ -55,11 +56,13 @@ strong {
 
 
 .botao {
+  display: inline-block;
   font-size: 2.4rem;
   font-weight: 700;
   text-decoration: none;
   border-radius: 3rem;
-  padding: 0.82rem 2.5rem;
+  padding: 0.65rem 2.5rem;
+  box-shadow: 0 0.21rem 0.8rem rgba(0, 0, 0, 0.15);
 }
 
 .realce-semibold {
@@ -112,8 +115,30 @@ nav ul {
   background-size: cover;
 }
 
+.hero-botao {
+  background-image: linear-gradient(180deg, #ff645e,#ff9253);
+  color: white;
+  border-bottom: solid 0.4rem #993c38;
+  border-right: solid 0.4rem #993c38;
+}
+
+.hero-botao:hover {
+  background-color: #ff9253 ;
+  background-image: none;
+  border-bottom: solid 0.4rem #ff9253;
+  border-right: solid 0.4rem #ff9253;
+}
+
 .hero-paragrafo {
   font-size: 1.9rem;
+  line-height: 1.3;
+}
+
+.iframe-video {
+  aspect-ratio: 16/9;
+  width: 42rem;
+  border-radius: 2.5rem;
+  display: none;
 }
 
 /* Seção Conteúdos Gratuitos */
