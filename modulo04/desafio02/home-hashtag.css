@@ -78,6 +78,7 @@ ul {
 
 .cabecalho {
   position: sticky;
+  z-index: 9999;
   top: 0;
   left: 0;
   background-color: white;
@@ -229,6 +230,22 @@ nav {
 }
 
 /* Seção Diferenciais */
+
+.secao-diferenciais {
+  background-color: #f4f5f7;
+}
+
+.container-diferenciais {
+  border-radius: 5rem;
+  background-color: white;
+  padding: 4.88rem 3.12rem;
+}
+
+.caixa-diferenciais-h2 {
+  border-left: solid 0.5rem #ffb20f;
+  padding: 0.52rem 0 0.52rem 1.6rem;
+
+}
 
 .diferenciais-p {
   font-size: 1.92rem;
