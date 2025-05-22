@@ -74,6 +74,8 @@ ul {
   border-radius: 3rem;
   padding: 0.65rem 2.5rem;
   box-shadow: 0 0.21rem 0.8rem rgba(0, 0, 0, 0.15);
+  border-bottom: solid 0.4rem #993c38;
+  border-right: solid 0.4rem #993c38;
 }
 
 .realce-semibold {
@@ -136,8 +138,6 @@ nav {
 .hero-botao {
   background-image: linear-gradient(180deg, #ff645e,#ff9253);
   color: white;
-  border-bottom: solid 0.4rem #993c38;
-  border-right: solid 0.4rem #993c38;
 }
 
 .hero-botao:hover {
@@ -328,6 +328,99 @@ nav {
 }
 
 /* Seção O que falam */
+
+.secao-oquefalam {
+  background-image: url('https://elegant-rabanadas-4b0397.netlify.app/Imagens/Formato%20Novo/BACKGROUN-banner-04.webp');
+  background-position: 50%;
+  background-repeat: no-repeat;
+  background-size: cover; 
+}
+
+.oquefalam-carrosel {
+  position: relative;
+}
+
+.oquefalam-carrosel-img {
+  position: relative;
+  background-position: 50%;
+  background-size: cover;
+  border-radius: 2.5rem;
+  aspect-ratio: 16/9;
+  width: 33%;
+  display: inline-block;
+  background-color: #7489af;
+  background-blend-mode: multiply;
+}
+
+.oquefalam-carrosel-img--1 {
+  background-image: url('https://i3.ytimg.com/vi/N_EZD04zmrw/hqdefault.jpg');
+}
+
+.oquefalam-carrosel-img--2 {
+  background-image: url('https://i3.ytimg.com/vi/auqWeBJLJHY/hqdefault.jpg');
+}
+
+.oquefalam-carrosel-img--3 {
+  background-image: url('https://i3.ytimg.com/vi/FD79IpCaM1Y/hqdefault.jpg');
+}
+
+.seta-player {
+    cursor: pointer;
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50% , -50%);
+  width: 3rem;
+}
+
+.oquefalam-titulo {
+  color: white;
+}
+
+.oquefalam-seta {
+    cursor: pointer;
+  position: absolute;
+  top: 50%;
+  
+}
+
+.seta--esquerda {
+  left: 0;
+  transform: translate(-150%, -65%);
+}
+
+.seta--direita {
+  right: 0;
+  transform: translate(160%, -65%);
+}
+
+.item-navegacao {
+  cursor: pointer;
+  display: inline-block;
+  width: 1.2rem;
+  height: 1.2rem;
+  border-radius: 50%;
+  background-color: #86a8bc;
+}
+
+.item-navegacao.ativa {
+  background-color: #14577f ;
+}
+
+.botao-oquefalam {
+  background-image: linear-gradient(180deg, #196c9f, #1a80a7);
+  border-bottom-color:#14577f ;
+  border-right-color: #14577f;
+  color: white;
+}
+
+.botao-oquefalam:hover {
+  background-image: none;
+  background-color: #1a80a7;
+  border-bottom-color:#1a80a7 ;
+  border-right-color: #1a80a7;
+  color: white;
+}
 
 /* .oquefalam-realce {
   font-weight: 600;
