@@ -426,6 +426,24 @@ nav {
   font-weight: 600;
 } */
 
+/* Seção Na Mídia */
+
+.secao-namidia {
+  padding-top: 3.9rem;
+  padding-bottom: 2rem;
+  background-image: url('https://www.hashtagtreinamentos.com/wp-content/uploads/2022/06/BACKGROUND-Banner-05_1.png');
+  background-position: 50%;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.seta-namidia ,
+.h2-namidia{
+  display: inline-block;
+}
+
+
+
 /* Seção Blog */
 
 .blog-postadoem {
