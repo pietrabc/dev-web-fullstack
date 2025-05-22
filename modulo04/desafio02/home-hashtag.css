@@ -38,6 +38,12 @@ h2 {
   font-weight: 400;
 }
 
+
+h3 {
+    font-size: 2.3rem;
+  line-height: 1.2;
+}
+
 strong {
   font-weight: 600;
 }
@@ -72,6 +78,14 @@ ul {
 
 .realce-semibold {
   font-weight: 600;
+}
+
+.hero-paragrafo,
+.diferenciais-p,
+.comoajudar-lista,
+.comoajudar-paragrafo {
+  font-size: 1.92rem;
+  line-height: 1.3;
 }
 
 /* Cabeçalho */
@@ -133,11 +147,6 @@ nav {
   border-right: solid 0.4rem #ff9253;
 }
 
-.hero-paragrafo,
-.diferenciais-p {
-  font-size: 1.92rem;
-  line-height: 1.3;
-}
 
 .iframe-video {
   aspect-ratio: 16/9;
@@ -204,7 +213,6 @@ nav {
 }
 
 .gratuito-h3 {
-  font-size: 2.3rem;
   font-weight: 700;
 }
 
@@ -258,6 +266,7 @@ nav {
 }
 
 .caixa-itens-diferenciais {
+  position: relative;
   border-radius: 2.5rem;
   background-color: white;
   box-shadow: 0 0 0.8rem 0.3rem rgba(0, 0, 0, 0.15) ;
@@ -265,6 +274,10 @@ nav {
 }
 
 .caixa-imagens-diferenciais {
+  position: absolute;
+  top: 0;
+  left: 50%;
+  transform: translate(-50% , -50%);
   display: inline-block;
   border-radius: 1.25rem;
   width: 10rem;
@@ -278,26 +291,33 @@ nav {
   width: 100%;
 }
 
+.diferenciais-empresas img {
+  height: 5rem;
+  filter: grayscale(100%);
+}
+
+.logo-loreal {
+  opacity: 65%;
+}
+ 
+.logo-subsea7 ,
+.logo-disney ,
+.logo-animale {
+  opacity: 75%;
+}
+
 .caixa-diferenciais-h2 {
   border-left: solid 0.5rem #ffb20f;
   padding: 0.52rem 0 0.52rem 1.6rem;
 
 }
 
-.diferenciais-p {
-  font-size: 1.92rem;
-  line-height: 1.3;
-}
-
 .diferenciais-h3 {
   color: #005e88;
-  font-size: 2.3rem;
-  line-height: 1.;
   font-weight: 600;
 }
 
 .diferenciais-h3-empresas {
-  font-size: 3.5rem;
   font-weight: 400;
 }
 
@@ -341,11 +361,6 @@ nav {
   font-weight: 600;
 } */
 
-.comoajudar-lista,
-.comoajudar-paragrafo {
-  font-size: 1.92rem;
-  line-height: 1.3;
-}
 
 .comoajudar-lista a,
 .comoajudar-paragrafo a {
