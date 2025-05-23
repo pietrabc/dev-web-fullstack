@@ -57,7 +57,7 @@ ul {
 input {
   padding: 1.02rem;
   background-color: white;
-  box-shadow: insei 0 0 0.2rem 0.2rem rgba(0, 0, 0, 0.15);
+  box-shadow: insei 0 0 0.2rem 0.4rem rgba(0, 0, 0, 0.15);
   border: 0;
   border-radius: 0.8rem;
   font-size: inherit;
@@ -169,8 +169,7 @@ nav {
 .hero-botao:hover {
   background-color: #ff9253 ;
   background-image: none;
-  border-bottom: solid 0.4rem #ff9253;
-  border-right: solid 0.4rem #ff9253;
+  border: solid 0.2rem #ff9253;
 }
 
 
@@ -438,10 +437,9 @@ nav {
 }
 
 .botao-oquefalam:hover {
-  background-image: none;
+  border: solid 0.2rem #1a80a7;
   background-color: #1a80a7;
-  border-bottom-color:#1a80a7 ;
-  border-right-color: #1a80a7;
+  background-image: none;
   color: white;
 }
 
@@ -517,6 +515,7 @@ nav {
 }
 
 .blog-titulopost {
+  color: inherit;
   font-weight: 600;
   text-decoration: none;
 }
@@ -599,8 +598,7 @@ nav {
 }
 
 .botao-minicurso:hover {
-  border-bottom-color:#ffba29 ;
-  border-right-color: #ffba29;
+  border: solid 0.2rem #ffba29;
 }
 
 .input-minicurso {
@@ -621,4 +619,57 @@ nav {
 
 .rodape-link {
   color: #1a77a4;
+}
+
+.rodape-link:hover ,
+.rodape-link:active {
+  color: #f60;
+}
+
+.secao-rodape svg {
+  width: 2.4rem;
+}
+
+.svg-rodape {
+  color: transparent;
+}
+
+.svg-rodape:hover svg{
+  fill: #f60;
+  stroke: #f60;
+}
+
+.form-newsletter {
+  border-radius: 2.5rem;
+  box-shadow: inset 0 0 0.8rem 0.2rem rgba(0, 0, 0, 0.15);
+  padding: 2.5rem;
+  background-color: #fff;
+}
+
+.botao-rodape {
+  background-color: #1a77a4;
+  border-bottom-color:#0c374d ;
+  border-right-color: #0c374d;
+  color: white;
+}
+
+.botao-rodape:hover {
+  border: solid 0.2rem #1a77a4;
+}
+
+/* Fixado */
+
+.logo-whatsapp {
+  position: fixed;
+  right: 1rem;
+  bottom: 0.8rem;
+  width: 8.5rem;
+}
+
+.logo-whatsapp img {
+  width: 100%;
+}
+
+.logo-whatsapp:hover {
+  transform: translate(0.3rem, 00.3rem);
 }
