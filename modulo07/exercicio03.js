@@ -53,7 +53,6 @@ console.log(venda);
 delete venda.produto;
 console.log(venda);
 
-
 // Exercício 5: Manipulação dos Tipos Referências
 // a. Crie um array estoque e atribua seus valores para um novo array novoEstoque.
 // b. Modifique um elemento de novoEstoque e mostre que estoque não foi alterado.
@@ -61,3 +60,23 @@ console.log(venda);
 // novoFuncionario.
 // d. Modifique uma propriedade de novoFuncionario e mostre que funcionario não foi
 // alterado.
+
+let estoque = ['livros', 'jornais', 'revistas'];
+let novoEstoque = [...estoque];
+
+novoEstoque[2] = 'cadernos';
+console.log(novoEstoque);
+console.log(estoque);
+
+let funcionario = {
+  nome: 'Pietra',
+  cargo: 'RH',
+  salario: 2500,
+};
+
+let novoFuncionario = {...funcionario
+};
+
+novoFuncionario.cargo = 'Gerente';
+console.log(funcionario);
+console.log(novoFuncionario);
