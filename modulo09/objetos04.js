@@ -19,3 +19,14 @@ class Carro {
         );
     }
 }
+
+const classeCarro = new Carro(); // criar - instancia
+console.log(classeCarro.modelo
+);
+
+// Objeto Global Date
+console.log(Math);
+console.log(new Date()); // CLASSE DO JAVASCRIPT
+
+const dataAtual = new Date(); // criando uma instância  do objeto/classe DATE
+console.log(dataAtual);
