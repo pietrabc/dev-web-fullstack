@@ -78,3 +78,38 @@ calcularDiferencaEmDias('2025-07-01', '2025-09-09')
 // Exiba as informações no console.
 // Exemplo Entrada: // 2024-10-07
 // Exemplo Saída: // Ano: 2024, Mês: 10, Dia: 6
+
+function extrairPartesDatas(dataString) {
+    let data = new Date(dataString);
+    let ano = data.getFullYear();
+    let mes = data.getMonth() + 1;
+    let dia = data.getDate();
+
+    console.log(`Ano: ${ano}, Mês: ${mes}, Dia: ${dia}`);
+}
+//extrairPartesDatas('2024-10-07')
+extrairPartesDatas('2024-10-07T00:00:00')
+
+// Exercício 6: Crie uma função que receba a data de nascimento de uma pessoa e calcule sua
+// idade com base na data atual. Exiba a idade no console.
+// Exemplo Entrada: // 1990-05-15
+// Exemplo Saída: // Idade: 34
+let dataNascimento = '2001-09-09';
+
+function calcularIdade(dataNascimento) {
+    let nascimento = new Date(dataNascimento);
+    let hoje = new Date(); // data atual
+
+    let idade = hoje.getFullYear() - nascimento.getFullYear(); // 2024 - 1997 = 28
+
+    let aniversarioAtual = new Date(hoje.getFullYear(), nascimento.getMonth(), nascimento.getDate());
+
+    let diferencaDias = (hoje - aniversarioAtual) / (1000 * 60 * 60 * 24);
+
+    let ajuste = (diferencaDias < 0) * 1;
+
+    idade = idade - ajuste;
+    console.log('Minha idade é:', idade);
+}
+
+calcularIdade(dataNascimento);
