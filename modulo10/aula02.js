@@ -8,11 +8,10 @@ const usuario = {
 const mensagemDeBoasVindas1 = 'Bem vindo, torcedor Tricolor!';
 const mensagemDeBoasVindas2 = 'Bem vindo, torcedor Alvinegro!';
 
-if(usuario.time === 'Ceará'){
-    console.log(mensagemDeBoasVindas2)
-}
-if (usuario.time === 'Fortaleza'){
-    console.log(mensagemDeBoasVindas1);
+if(usuario.time === 'Fortaleza'){
+    console.log(mensagemDeBoasVindas1)
+} else {
+    console.log(mensagemDeBoasVindas2);
 }
 
 
