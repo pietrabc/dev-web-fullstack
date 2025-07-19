@@ -35,24 +35,8 @@ const quantidade = 0;
 verificarEstoque(quantidade);
 
 
-// Exercício 4: Classificação de Desempenho de Vendas
-// Você está gerenciando uma equipe de vendedores e deseja avaliar o desempenho de cada vendedor com
-// base em suas vendas mensais em relação a uma meta estabelecida. Escreva um programa
-// desempenhoIndividualDeVendas que determine a categoria de desempenho de um vendedor com base no
-// percentual alcançado em relação à meta. As categorias incluem "Excelente Desempenho" (para vendedores
-// que alcançaram ou excederam a meta), "Muito Bom Desempenho" (para vendedores com vendas entre 90% e
-// 99% da meta), "Bom Desempenho" (para vendedores com vendas entre 80% e 89% da meta), "Desempenho
-// Satisfatório" (para vendedores com vendas entre 61% e 79% da meta) e "Desempenho Insatisfatório" (para
-// vendedores com vendas abaixo de 60% da meta). Execute o código e informe a categoria de desempenho do
-// vendedor com base nas vendas mensais e na meta de vendas estabelecida.
-// OPERADOR TERNÁRIO:
 
-// Exercício 5: Verificação de Velocidade
-// Crie uma função chamada verificarVelocidade que recebe a velocidade de um veículo como argumento e
-// retorna true se o veículo estiver dentro do limite de velocidade (limite igual ou inferior a 80 km/h) e false caso
-// exercicios.md 2023-09-22
-// 2 / 2
-// contrário, utilizando o operador ternário.
+
 
 // Exercício 6: Semáforo de Trânsito
 // Crie uma função mensagemSemaforo que recebe uma cor de semáforo como argumento (por exemplo,
