@@ -42,7 +42,3 @@ verificarEstoque(quantidade);
 
 
 
-// Exercício 8: Verificação de Placa de Veículo
-// Crie uma função verificarPlaca que recebe o último dígito da placa de um veículo como argumento (um
-// número de 0 a 9) e retorna uma mensagem indicando o dia de rodízio em São Paulo, com base no último
-// dígito da placa.
