@@ -4,16 +4,26 @@
 // é aplicado. O programa deve imprimir mensagens que retornem o se o cliente possui ou não o direito de
 // retorno e o valor da compra no console.
 
-let valorCompra = 100;
-
-function verificaDesconto() {
+function verificaDesconto(valorDaCompra) { 
+    if (valorDaCompra >= 100) {
+        console.log('Parabéns! Você tem direito a um desconto de 10%');
+        const valorComDesconto = valorDaCompra * 0.9;
+        console.log(`Valor de Compra R$ ${valorComDesconto}`);
+    } else {
+        console.log("Desculpe, mas você não tem direito a nenhum desconto");
+        console.log(`Valor de Compra R$ ${valorDaCompra}`);
+    }
 }
 
+const valorDaCompra = 250;
+verificaDesconto(valorDaCompra);
 // Exercício 2: Verificação de Produto em Estoque
 // Escreva um programa verificarEstoque que verifica se um produto está em estoque com base na quantidade
 // disponível. Se a quantidade disponível for maior que zero, exiba "Produto disponível", caso contrário, exiba
 // "Produto esgotado" no console.
 // IF / ELSE IF / ELSE:
+
+
 
 // Exercício 3: Determinação de Categoria de Cliente
 // Escreva um programa categoriaCliente que determine a categoria de um cliente com base em sua
