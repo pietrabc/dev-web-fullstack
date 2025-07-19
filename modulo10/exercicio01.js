@@ -38,16 +38,9 @@ verificarEstoque(quantidade);
 
 
 
-// Exercício 6: Semáforo de Trânsito
-// Crie uma função mensagemSemaforo que recebe uma cor de semáforo como argumento (por exemplo,
-// "vermelho", "amarelo" ou "verde") e retorna uma mensagem indicando a ação a ser tomada com base na cor
-// do semáforo. Utilize o operador ternário para determinar a mensagem.
-// SWITCH / CASE:
 
-// Exercício 7: Prioridade no Trânsito
-// Crie uma função chamada coresDoSemaforo que recebe uma cor de semáforo como argumento (por
-// exemplo, "vermelho", "amarelo" ou "verde") e retorna uma mensagem indicando se é seguro passar ou se é
-// necessário parar.
+
+
 
 // Exercício 8: Verificação de Placa de Veículo
 // Crie uma função verificarPlaca que recebe o último dígito da placa de um veículo como argumento (um
