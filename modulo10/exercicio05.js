@@ -18,6 +18,24 @@ function calcularFaturamentoSemanal(vendasPorDia, precoPorHamburguer) {
 const faturamentoTotal = calcularFaturamentoSemanal(vendasPorDia, precoPorHamburguer);
 
 console.log(`O faturamento total da semana é R$${faturamentoTotal}`);
+
 // Exercício 2: Listagem do Cardápio Digital
 // Você deseja criar um cardápio digital para sua lanchonete. Crie um programa que liste os itens do cardápio
 // juntamente com seus preços. Utilize um loop for para percorrer o cardápio e exibi-lo.
+
+const cardapio = [
+    {nome: 'Hamburguer', preco: 10},
+    {nome:'Batata frita', preco: 5},
+    {nome: 'Refrigerante', preco: 3},
+    {nome:'Milkshake', preco:7},
+    {nome: 'Nuggets', preco: 6},
+];
+
+function exibirCardapio(cardapio) {
+   console.log('Cardapio da lanchonete: ');
+   for (let contador = 0; contador < cardapio.length; contador++) {
+    console.log(`${cardapio[contador].nome}: ${cardapio[contador].preco}`);
+   }
+}
+
+exibirCardapio(cardapio);
