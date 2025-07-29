@@ -36,7 +36,7 @@ const cardapio6 = {
 
 const pedidoCliente = [
   { nome: 'Hamburguer', quantidade: 4 },
-  { nome: 'Batata Frita', quantidade: 1 },
+  { nome: 'BatataFrita', quantidade: 1 },
   { nome: 'Refrigerante', quantidade: 3 },
 ];
 
