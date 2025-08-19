@@ -3,12 +3,20 @@
 // Exemplo Entrada: // somar(5, 3);
 // Exemplo Saída: // 8
 
-let num = 5;
-let numero = 3
+// let num = 5;
+// let numero = 3
 
-function somarNumeros(num,numero) {
-    let resultado = num + numero;
-    console.log(resultado);
+// function somarNumeros(num,numero) {
+//     let resultado = num + numero;
+//     console.log(resultado);
+// }
+
+//somarNumeros(num, numero);
+
+
+// #Hashtag
+function somar(x,y) {
+    return x + y;
 }
 
-somarNumeros(num, numero);
+console.log(somar(5,3));
