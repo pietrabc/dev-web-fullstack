@@ -5,3 +5,11 @@
 // Exemplo Entrada: // calcularPontos(5, 2);
 // Exemplo Saída: // 17
 
+function calcularPontos(vitorias, empates) {
+    // let pontosVitoria = vitorias * 3;
+    // let pontosEmpates = empates;
+    // let resultado = pontosVitoria + pontosEmpate;
+    return `${vitorias * 3 + empates} pontos`;
+}
+
+console.log(calcularPontos(5, 2));
