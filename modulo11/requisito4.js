@@ -4,3 +4,9 @@
 // Exemplo Entrada: //calcularRendimento(1000, 5);
 // Exemplo Saída: // 50
 
+function calcularRendimento(valorInvestido, taxaJuros) {
+    let rendimento = valorInvestido * (taxaJuros/100);
+    return rendimento;
+}
+
+console.log(calcularRendimento(1000, 5))
