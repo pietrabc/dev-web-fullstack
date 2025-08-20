@@ -23,6 +23,7 @@ function gerarListaInvestimentos(investimentos, nome) {
     for (let investimento of investimentos) {
         lista.push({investimento: investimento, nome: nome});
     }
+    lista.sort((a, b) => (a.investimento > b.investimento ? 1 : -1));
 
     return lista;
 }
