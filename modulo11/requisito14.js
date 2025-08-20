@@ -19,4 +19,7 @@ function controleDespesas(despesas) {
             resultado.push('Gasto Controlado');
         }
     }
+    return resultado;
 }
+
+console.log(controleDespesas(despesas));
