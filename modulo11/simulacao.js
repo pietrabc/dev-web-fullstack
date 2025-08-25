@@ -9,11 +9,29 @@
 // decimais.
 // Função: simularInvestimento
 
+const valorInicial = 1000; //Valor inicial investido
+const taxaMensal = 1.5; // Taxa de rendimento mensal em %
+const meses = 12; // Duração do investimento
+
+function simularInvestimento(valorInicial, taxaMensal, meses) {
+    let saldoFinal = valorInicial;
+
+    for (let index = 1; index <= meses; index++) {
+        saldoFinal += saldoFinal * (taxaMensal / 100)
+    }
+
+    return saldoFinal.toFixed(2);
+}
+
+//console.log(simularInvestimento(valorInicial, taxaMensal, meses)) // 1195.62
+
 // Requisito 2: Gerenciamento de Despesas
 // ❖ Crie uma função que receba um objeto representando as despesas mensais em
 // diferentes categorias.
 // ❖ A função deve calcular e retornar o total de despesas.
 // Função: gerenciarDespesas
+
+
 
 // Requisito 3: Obtenção do Mês Atual
 // ❖ Crie uma função que retorne o nome do mês atual em formato string.
