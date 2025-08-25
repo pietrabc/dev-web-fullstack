@@ -40,9 +40,27 @@ function gerenciarDespesas(despesas) {
 //console.log(gerenciarDespesas(despesas)); // 2050
 
 // Requisito 3: Obtenção do Mês Atual
-// ❖ Crie uma função que retorne o nome do mês atual em formato string.
-// ❖ A função deve utilizar um array de nomes dos meses para identificar o mês atual.
-// Função: obterMesAtual
+
+function obterMesAtual() {
+    const meses = ['Janeiro', 
+        'Fevereiro', 
+        'Março', 
+        'Abril', 
+        'Maio', 
+        'Junho', 
+        'Julho', 
+        'Agosto', 
+        'Setembro', 
+        'Outubro', 
+        'Novembro', 
+        'Dezembro'];
+
+    const dataAtual = new Date(); // Criar uma instância e podemos utilizar os métodos desse objeto
+    //console.log(dataAtual.getMonth());
+    return meses[dataAtual.getMonth()];
+}
+
+//console.log(obterMesAtual()); //Agosto
 
 // Requisito 4: Geração de Relatório Financeiro
 // ❖ Crie uma função que gere um relatório financeiro com base no investimento inicial, taxa
@@ -56,6 +74,21 @@ function gerenciarDespesas(despesas) {
 // ■ Uma verificação se a meta de investimento foi atingida.
 // ■ Um resumo das despesas por categoria.
 // Função: gerarRelatorio
+
+function gerarRelatorio(valorInicial, taxa, meses, despesas, metaInvestimento, metaOrcamento) {
+    
+    const saldoInvestimento = simularInvestimento(valorInicial, taxa, meses);
+    const totalDespesas = gerenciarDespesas(despesas);
+    const mesAtual = obterMesAtual();
+    
+    console.log('=== Relatório Financeiro ===');
+    console.log(`Mês: ${mesAtual}`);
+    console.log(`Saldo final do investimento: R$ ${saldoInvestimento}`);
+    console.log(`Total de despesas: R$ ${totalDespesas}`);
+
+}
+
+console.log(gerarRelatorio(valorInicial, taxaMensal, meses, despesas));
 
 // Requisito 5: Estrutura de Dados para Despesas
 // ❖ Crie um objeto para armazenar as despesas mensais, utilizando categorias como
