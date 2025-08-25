@@ -3,11 +3,6 @@
 // gabarito é apenas uma forma de implementação.
 
 // Requisito 1: Simulação de Investimento
-// ❖ Crie uma função que simule o rendimento de um investimento com base em um valor
-// inicial, uma taxa mensal de rendimento e um período de meses.
-// ❖ A função deve retornar o saldo final após o período especificado, com duas casas
-// decimais.
-// Função: simularInvestimento
 
 const valorInicial = 1000; //Valor inicial investido
 const taxaMensal = 1.5; // Taxa de rendimento mensal em %
@@ -26,12 +21,23 @@ function simularInvestimento(valorInicial, taxaMensal, meses) {
 //console.log(simularInvestimento(valorInicial, taxaMensal, meses)) // 1195.62
 
 // Requisito 2: Gerenciamento de Despesas
-// ❖ Crie uma função que receba um objeto representando as despesas mensais em
-// diferentes categorias.
-// ❖ A função deve calcular e retornar o total de despesas.
-// Função: gerenciarDespesas
 
+const despesas = {
+    alimentacao: 500,
+    transporte: 150,
+    aluguel: 1200,
+    lazer: 200,
+};
 
+function gerenciarDespesas(despesas) {
+    let totalDespesas = 0;
+    for(let categoria in despesas) {
+        totalDespesas += despesas[categoria]; // Somar o valor de cada categoria
+    }
+    return totalDespesas;
+}
+
+//console.log(gerenciarDespesas(despesas)); // 2050
 
 // Requisito 3: Obtenção do Mês Atual
 // ❖ Crie uma função que retorne o nome do mês atual em formato string.
