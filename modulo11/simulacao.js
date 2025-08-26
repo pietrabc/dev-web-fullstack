@@ -4,9 +4,7 @@
 
 // Requisito 1: Simulação de Investimento
 
-const valorInicial = 1000; //Valor inicial investido
-const taxaMensal = 1.5; // Taxa de rendimento mensal em %
-const meses = 12; // Duração do investimento
+
 
 function simularInvestimento(valorInicial, taxaMensal, meses) {
     let saldoFinal = valorInicial;
@@ -22,12 +20,7 @@ function simularInvestimento(valorInicial, taxaMensal, meses) {
 
 // Requisito 2: Gerenciamento de Despesas
 
-const despesas = {
-    alimentacao: 500,
-    transporte: 150,
-    aluguel: 1200,
-    lazer: 200,
-};
+
 
 function gerenciarDespesas(despesas) {
     let totalDespesas = 0;
@@ -63,17 +56,8 @@ function obterMesAtual() {
 //console.log(obterMesAtual()); //Agosto
 
 // Requisito 4: Geração de Relatório Financeiro
-// ❖ Crie uma função que gere um relatório financeiro com base no investimento inicial, taxa
-// de rendimento, duração do investimento, despesas mensais, meta de investimento e
-// meta de orçamento.
-// ❖ O relatório deve incluir:
-// ■ O mês atual.
-// ■ O saldo final do investimento.
-// ■ O total de despesas.
-// ■ Uma mensagem de economia ou excedente em relação ao orçamento.
-// ■ Uma verificação se a meta de investimento foi atingida.
-// ■ Um resumo das despesas por categoria.
-// Função: gerarRelatorio
+
+
 
 function gerarRelatorio(valorInicial, taxa, meses, despesas, metaInvestimento, metaOrcamento) {
     
@@ -86,22 +70,52 @@ function gerarRelatorio(valorInicial, taxa, meses, despesas, metaInvestimento, m
     console.log(`Saldo final do investimento: R$ ${saldoInvestimento}`);
     console.log(`Total de despesas: R$ ${totalDespesas}`);
 
+    const economia = metaOrcamento - totalDespesas;
+    if (economia > 0) {
+        console.log('Parabéns você economizou R$' + economia);
+    } else {
+        console.log(`Você excedeu seu orçamento em R$ ${Math.abs(economia)}`);
+    }
+
+    if(saldoInvestimento >= metaInvestimento) {
+        console.log('Meta de investimento atingida')
+    } else {
+        console.log('Você não atingiu a meta de investimento');
+    }
+
+    console.log('=== Resumo das Despesas ===');
+    for( const categoria in despesas) {
+        console.log(`${categoria.charAt(0).toUpperCase() + categoria.slice(1)}: R$ ${despesas[categoria]}`)
+    }
 }
 
-console.log(gerarRelatorio(valorInicial, taxaMensal, meses, despesas));
+
 
 // Requisito 5: Estrutura de Dados para Despesas
-// ❖ Crie um objeto para armazenar as despesas mensais, utilizando categorias como
-// alimentação, transporte, aluguel e lazer.
-// ❖ O objeto deve permitir fácil acesso e modificação dos valores das despesas.
+
+const despesas = {
+    condominio: 800,
+    escola: 500,
+    academia: 150,
+    agua: 60,
+    luz: 120,
+    lazer: 300,
+};
+
+
 
 // Requisito 6: Entradas e Configurações do Investimento
-// ❖ Defina variáveis para armazenar o valor inicial do investimento, a taxa mensal de
-// rendimento, a duração do investimento em meses, a meta de investimento e a meta de
-// orçamento mensal.
-// ❖ As variáveis devem ser configuráveis para permitir diferentes simulações financeiras.
+
+
+const valorInicial = 1000; //Valor inicial investido
+const taxaMensal = 1.3; // Taxa de rendimento mensal em %
+const meses = 12; // Duração do investimento
+const metaInvestimento = 2000;
+const metaOrcamento = 1500;
+
 
 // Requisito 7: Execução do Relatório
 // ❖ Chame a função gerarRelatorio com os parâmetros adequados para gerar e exibir
 // o relatório financeiro no console.
 // ❖ A chamada deve utilizar as variáveis e objetos definidos anteriormente
+gerarRelatorio(valorInicial, taxaMensal, meses, despesas, metaInvestimento,metaOrcamento);
