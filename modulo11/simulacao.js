@@ -1,10 +1,7 @@
 // Requisitos do Projeto de Simulação Financeira
-// Lembre-se de que os requisitos podem ser resolvidos com diferentes abordagens, e nosso
-// gabarito é apenas uma forma de implementação.
+// Lembre-se de que os requisitos podem ser resolvidos com diferentes abordagens.
 
 // Requisito 1: Simulação de Investimento
-
-
 
 function simularInvestimento(valorInicial, taxaMensal, meses) {
     let saldoFinal = valorInicial;
@@ -19,8 +16,6 @@ function simularInvestimento(valorInicial, taxaMensal, meses) {
 //console.log(simularInvestimento(valorInicial, taxaMensal, meses)) // 1195.62
 
 // Requisito 2: Gerenciamento de Despesas
-
-
 
 function gerenciarDespesas(despesas) {
     let totalDespesas = 0;
@@ -53,11 +48,7 @@ function obterMesAtual() {
     return meses[dataAtual.getMonth()];
 }
 
-//console.log(obterMesAtual()); //Agosto
-
 // Requisito 4: Geração de Relatório Financeiro
-
-
 
 function gerarRelatorio(valorInicial, taxa, meses, despesas, metaInvestimento, metaOrcamento) {
     
@@ -89,8 +80,6 @@ function gerarRelatorio(valorInicial, taxa, meses, despesas, metaInvestimento, m
     }
 }
 
-
-
 // Requisito 5: Estrutura de Dados para Despesas
 
 const despesas = {
@@ -102,10 +91,7 @@ const despesas = {
     lazer: 300,
 };
 
-
-
 // Requisito 6: Entradas e Configurações do Investimento
-
 
 const valorInicial = 1000; //Valor inicial investido
 const taxaMensal = 1.3; // Taxa de rendimento mensal em %
@@ -113,9 +99,5 @@ const meses = 12; // Duração do investimento
 const metaInvestimento = 2000;
 const metaOrcamento = 1500;
 
-
 // Requisito 7: Execução do Relatório
-// ❖ Chame a função gerarRelatorio com os parâmetros adequados para gerar e exibir
-// o relatório financeiro no console.
-// ❖ A chamada deve utilizar as variáveis e objetos definidos anteriormente
 gerarRelatorio(valorInicial, taxaMensal, meses, despesas, metaInvestimento,metaOrcamento);
