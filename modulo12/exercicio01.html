@@ -1,24 +1,29 @@
 <!DOCTYPE html>
 <html lang="pt-br">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="exercicio01.css">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="exercicio01.css" />
     <title>Document</title>
-</head>
-<body>
+  </head>
+  <body>
     <h2>Eventos em elementos HTML</h2>
 
     <!-- Resolução Exercício 1 -->
-     <p onmouseover="style.color='red'">Passe o mouse aqui para mudar a cor do texto</p>
+    <p
+      onmouseover="this.style.color='red';"
+      onmouseout="this.style.color='black';"
+    >
+      Passe o mouse aqui para mudar a cor do texto
+    </p>
 
     <!-- Resolução Exercício 2 -->
-     <button>Clique Aqui</button>
+    <button onclick="alert('Botão Clicado')">Clique Aqui</button>
 
     <!-- Resolução Exercício 3 -->
-      <input type="text" placeholder="Digite Aqui" />
+    <input type="text" placeholder="Digite Aqui" />
 
     <!-- Resolução Exercício 4 -->
-    <img src="imagem1.png" alt="Imagem misteriosa"> 
-</body>
+    <img src="imagem1.png" alt="Imagem misteriosa" />
+  </body>
 </html>
