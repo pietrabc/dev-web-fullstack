@@ -21,9 +21,13 @@
     <button onclick="alert('Botão Clicado')">Clique Aqui</button>
 
     <!-- Resolução Exercício 3 -->
-    <input type="text" placeholder="Digite Aqui" />
+    <input type="text" placeholder="Digite Aqui"
+    onfocus="this.value='Campo em foco';"
+    onblur="this.value='';" />
 
     <!-- Resolução Exercício 4 -->
-    <img src="imagem1.png" alt="Imagem misteriosa" />
+    <img src="imagem1.png" alt="Imagem misteriosa" 
+    onmouseover="this.src='imagem2.png';" 
+    onmouseout="this.src='imagem1.png';"/>
   </body>
 </html>
