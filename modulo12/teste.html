@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Website Multifuncional: To-Do List, Calendário Interativo e Calculadora de Gastos Mensais</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <script src="teste.css"></script>
+</head>
+<body class="container mx-auto p-4">
+    <header class="text-center py-6">
+        <h1 class="text-4xl font-bold text-white drop-shadow-lg">Website Multifuncional</h1>
+        <p class="text-lg text-white mt-2">To-Do List, Calendário Interativo e Calculadora de Gastos Mensais</p>
+    </header>
+
+    <!-- To-Do List Section -->
+    <section class="section" id="todo-section">
+        <h2 class="text-2xl font-semibold mb-4 text-gray-800">Lista de Tarefas (To-Do List)</h2>
+        <div class="flex mb-4">
+            <input type="text" id="todo-input" placeholder="Digite uma nova tarefa..." class="flex-grow p-2 border border-gray-300 rounded-l">
+            <button id="add-todo" class="bg-blue-500 text-white px-4 py-2 rounded-r hover:bg-blue-600">Adicionar</button>
+        </div>
+        <ul id="todo-list" class="list-disc pl-6 space-y-2"></ul>
+    </section>
+
+    <!-- Calendar Section -->
+    <section class="section" id="calendar-section">
+        <h2 class="text-2xl font-semibold mb-4 text-gray-800">Calendário Interativo</h2>
+        <div class="flex justify-between items-center mb-4">
+            <button id="prev-month" class="bg-gray-500 text-white px-4 py-2 rounded hover:bg-gray-600">&lt;</button>
+            <h3 id="month-year" class="text-xl font-semibold"></h3>
+            <button id="next-month" class="bg-gray-500 text-white px-4 py-2 rounded hover:bg-gray-600">&gt;</button>
+        </div>
+        <div class="grid grid-cols-7 gap-2 mb-4">
+            <div class="text-center font-semibold">Dom</div>
+            <div class="text-center font-semibold">Seg</div>
+            <div class="text-center font-semibold">Ter</div>
+            <div class="text-center font-semibold">Qua</div>
+            <div class="text-center font-semibold">Qui</div>
+            <div class="text-center font-semibold">Sex</div>
+            <div class="text-center font-semibold">Sáb</div>
+        </div>
+        <div id="calendar-grid" class="grid grid-cols-7 gap-2"></div>
+        <div class="mt-4">
+            <input type="text" id="event-input" placeholder="Digite um evento para o dia selecionado..." class="w-full p-2 border border-gray-300 rounded mb-2">
+            <button id="add-event" class="bg-green-500 text-white px-4 py-2 rounded hover:bg-green-600">Adicionar Evento</button>
+            <ul id="events-list" class="mt-4 space-y-1"></ul>
+        </div>
+    </section>
+
+    <!-- Expense Calculator Section -->
+    <section class="section" id="expense-section">
+        <h2 class="text-2xl font-semibold mb-4 text-gray-800">Calculadora de Gastos Mensais</h2>
+        <div class="flex flex-wrap gap-4 mb-4">
+            <input type="text" id="expense-description" placeholder="Descrição" class="flex-1 p-2 border border-gray-300 rounded">
+            <input type="number" id="expense-amount" placeholder="Valor (R$)" class="flex-1 p-2 border border-gray-300 rounded">
+            <select id="expense-type" class="flex-1 p-2 border border-gray-300 rounded">
+                <option value="income">Receita</option>
+                <option value="expense">Despesa</option>
+            </select>
+            <button id="add-expense" class="bg-red-500 text-white px-4 py-2 rounded hover:bg-red-600">Adicionar</button>
+        </div>
+        <div class="flex justify-between mb-4">
+            <div class="text-lg">Receitas: <span id="total-income">R$ 0.00</span></div>
+            <div class="text-lg">Despesas: <span id="total-expense">R$ 0.00</span></div>
+            <div class="text-lg font-semibold">Saldo: <span id="balance">R$ 0.00</span></div>
+        </div>
+        <ul id="expense-list" class="list-disc pl-6 space-y-2"></ul>
+    </section>
+
+    <script src="teste.js"></script>
+</body>
+</html>
+</content>
+</create_file>
